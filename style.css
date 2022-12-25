@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: 87.5%;
     font-family: 'Montserrat', sans-serif;
     height: 100%;
 }
@@ -26,7 +26,7 @@ body {
     height: 100%;
 }
 
-.mb-container {
+main {
     width: 345px;
 	border-radius: 1rem;
     background-color: hsl(0, 0%, 100%);
@@ -40,6 +40,7 @@ body {
 }
 
 .item-type {
+    text-transform: uppercase;
     margin-top: 1rem;
     font-size: 0.85rem;
     letter-spacing: 0.32rem;
@@ -106,15 +107,16 @@ body {
     margin-right: 0.75rem;
 }
 
-.attribution {
-     display: absolute;
-     position: fixed;
-     bottom: 1rem;
-     font-size: 11px; 
-     text-align: center; 
+footer {
+    text-align: center;
+    display: absolute;
+    position: fixed;
+    bottom: 1rem;
+    font-size: 0.78rem;
 }
-.attribution a {
-    color: hsl(228, 45%, 44%); 
+
+footer a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 1440px) {
@@ -124,7 +126,7 @@ body {
         height: 100%;
     }
 
-    .mb-container {
+    main {
         display: flex;
         width: 60rem;
         scale: 0.80;
